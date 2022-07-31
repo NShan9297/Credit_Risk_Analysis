@@ -31,4 +31,4 @@ Accuracy: 0.5767
 
 
 # Summary
-In choosing an accurate model for credit risk analysis, we are looking for a model that will be sensitive enough to catch any risky profiles, but precise enough to not inaccurately 
+In choosing an accurate model for credit risk analysis, we are looking for a model that will be sensitive enough to catch any risky profiles, but precise enough to allow for the predicted positives to actually be positive. We should be looking for higher Recall and Higher Prec, with a high F1 score. We see balanced random forest and Easy Ensemble AdaBoost both have high F1 scores in comparison to all the other models that have low f1 scores. We see that the Easy Ensemble has the highest of all of the resampling models. This selection will be the best as it meets the above listed criterion. I would confidently advise that Easy Ensemble be used.
